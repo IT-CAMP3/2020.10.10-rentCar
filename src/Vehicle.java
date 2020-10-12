@@ -58,4 +58,13 @@ public class Vehicle {
     public void setPlate(String plate) {
         this.plate = plate;
     }
+
+    @Override
+    public String toString() {
+        return "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", rent=" + rent +
+                ", price=" + price +
+                ", plate='" + plate + '\'';
+    }
 }

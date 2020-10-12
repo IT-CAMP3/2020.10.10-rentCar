@@ -20,4 +20,12 @@ public class Car extends Vehicle {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                super.toString() +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
